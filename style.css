@@ -14,10 +14,10 @@ nav{
     align-items: center;
     justify-content: space-between;
     background: white;  
-    position: relative;
     height: 100%px;
     width: 100%px;
     box-shadow: 4px rgba(0, 0, 0, 0.3);
+    position: fixed;
 }
 
 .shadow{
@@ -39,7 +39,7 @@ nav{
     gap: 50px;
     text-align: start;
     font-size: 22px;
-    margin-left: -100px;
+    margin-left: -200px;
 }
 .menu li a{
     text-decoration: none;
@@ -126,9 +126,7 @@ nav ul li i{
         justify-content: center;
         align-items: center;
     }
-    nav{
-        position: fixed;
-    }
+
     
     nav ul li{
         padding: 20px;
@@ -156,6 +154,7 @@ nav ul li i{
     }
     nav{
         height: 90px;
+        position: fixed;
     }
     .menu{
         position: relative;
@@ -375,8 +374,16 @@ nav ul .dropdown ul{
 
 }
 #box-1{
+    width: 500px;
     flex-grow: 1;
-    width: 660px;
+}
+#box-1 img{
+    width: 500px;
+    height: 300px;
+}
+#box-1 p{
+     font-size: 20px;
+     text-align: center;
 }
 #box-2{
     width: 660px;
@@ -414,19 +421,46 @@ nav ul .dropdown ul{
     height: 200px;
     flex-grow: 1;
 }
+#box-11{
+    width: 1200px;
+    height: 1200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+#box-11 img{
+    width: 500px;
+    height: 400px;
+    float: left;
+}
+#box-11 h1{
+    text-align: center;
+}
+#box-11 h3{
+    text-align: center;
+}
+#box-12{
+    height: 200px;
+    flex-grow: 1;
+}
+#box-13{
+    height:200px;
+    flex-grow: 1;
+}
+#box-14{
+    height: 200px;
+    flex-grow: 1;
+}
 
 .flex-box{
-    flex-grow: 0;
     width: 400px;
     height: 450px;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 20px;
+    flex-grow: 1;
 }
 
-.flex-box img{
-    width: 400px;
-}
+
 
 .headline{
     margin-left: px;
