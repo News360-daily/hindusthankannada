@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: hsl(0, 0%, 95%);
+}
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;  
+    position: relative;
+    height: 100%px;
+    width: 100%px;
+    box-shadow: 4px rgba(0, 0, 0, 0.3);
+}
+
+.shadow{
+    position: fixed;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) ;
+    width: 1370px;
+    box-shadow: 4px rgba(0, 0, 0, 0.3);
+}
+
+.menu{
+    display: flex;
+    position:relative;
+    margin-top: 100px;
+    width: 500px;
+    align-items: start;
+    justify-content: start;
+    background-color: white;
+    list-style-type: none;
+    gap: 50px;
+    text-align: start;
+    font-size: 22px;
+    margin-left: -100px;
+}
+.menu li a{
+    text-decoration: none;
+    border:none;
+    border-radius: 10px;
+    height: 100%;
+    color: black;
+    background-color: none;
+}
+.logo{
+    font-size: 30px;
+    background-color: black;
+    color: orangered;
+    border-radius: 10px;
+    height: 70px;
+    margin-right: -50px;
+}
+
+nav ul{
+    display: none;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
+    position: relative;
+    font-size: 20px;
+    margin-bottom: none;
+    height: 50px;
+    overflow-x: auto;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+nav ul li i{
+    
+    
+}
+.menu-icon{
+    display: none;
+    position: none;
+    color: black;
+    margin-bottom:10px ;
+}
+
+.menu-icon i{
+    color: none;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: start;
+        align-items: start;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        position: fixed;
+    }
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+@media only screen and (max-width: 500px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: start;
+        justify-content: flex-start;
+        align-items: start;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+    }
+    nav ul li a{
+        margin-left: 100px;
+    }
+    .srch button{
+        margin-right: 910px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about .tittle {
+        margin-left: -430px;
+    }
+    .btnn{
+        margin-left: 280px;
+    }
+    .menu-icon{
+        margin-left: 410px;
+    }
+    input{
+        display: none;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        max-width: 320px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        background: none;
+        gap: 20px;
+        flex-flow: initial;
+        width: 100%;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .about{
+        width: 500px;
+    }
+    .about ul li{
+        margin-left: -870px;
+    }
+    .about ul li a{
+        margin-left: 850px;
+    }
+    .logo {
+        font-size: 17px;
+        height: 45px;
+        margin-top: 10px;
+    }
+}
+
+.btnn{
+    margin-bottom: 75px;
+    width: 240px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    background-color: white;
+    border: none;
+    box-shadow: ;
+    position: ;
+    
+    
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-size: none;
+}
+
+.logo{
+    margin-bottom: 50px;
+    font-size: px;
+    margin-left: px;
+}
+
+.menu-icon2{
+    position: fixed;
+    margin-top: 60px;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+nav ul li button{
+    cursor: pointer;
+    transition: 0.4s ease;
+    background-color: white;
+    border: none;
+    font-size: 15px;
+}
+
+nav ul .dropdown ul{ 
+    position:none;
+    min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -10px;
+    margin-top: -0px;
+    overflow: hidden;
+    margin-top: 35px;
+    gap: 25px;
+    background-color: hsl(0, 0%, 95%);
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.796);
+}
+
+@media only screen and (max-width: 500px) {
+    nav ul .dropdown ul {
+        top: 300px;
+        width: 100px;
+        height: 200px;
+        left: 150px;
+        position:none;
+        background-color: hsl(0, 0%, 95%);
+        box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.796);
+        min-width: 70px;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 0px;
+    
+    }
+    nav ul .dropdown ul li{
+        
+    }
+    .flex-box h1 i{
+        display: none;
+    }
+}
+
+.flex-container{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+
+}
+#box-1{
+    flex-grow: 1;
+    width: 660px;
+}
+#box-2{
+    width: 660px;
+    flex-grow: 1;
+}
+#box-3{
+    height: 200px;
+    flex-grow: 1;
+}
+#box-4{
+    height: 200px;
+    flex-grow: 1;
+}
+#box-5{
+    height: 200px;
+    flex-grow: 1;
+}
+#box-6{
+    flex-grow: 1;
+    width: 660px;
+}
+#box-7{
+    flex-grow: 1;
+    width: 660px;
+}
+#box-8{
+    height: 200px;
+    flex-grow: 1;
+}
+#box-9{
+    height: 200px;
+    flex-grow: 1;
+}
+#box-10{
+    height: 200px;
+    flex-grow: 1;
+}
+
+.flex-box{
+    flex-grow: 0;
+    width: 400px;
+    height: 450px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+.flex-box img{
+    width: 400px;
+}
+
+.headline{
+    margin-left: px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.flex-box1{
+    width: 400px;
+    height: 50px;
+    background: #fff;
+    border: none;
+}
+.flex-box1 h1{
+    margin-left: 30px;
+}
+
+.srch{
+    margin-top: 100px;
+}
+.srch button{
+    background-color: black;
+    border: 2px solid black;
+    color: #fff;
+    width: 50px;
+    height: 25px;
+    border-radius: 15px;
+}
+input{
+    margin-left: 240px;
+    margin-top: 100px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 25px;
+}
+.about{
+    background: black;
+    border: 1px solid #ddd;
+    border-radius: ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.about ul{
+    justify-content: center;
+}
+.about ul li{
+    margin-top: px;
+    width: 1370px;
+    height: 50px;
+    border: 1px solid #fff;
+    justify-content: space-around;
+    background-color: black;
+}
+.about ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.about ul li a i{
+    color: orangered;
+}
+.about ul li a:hover{
+    color: orangered;
+}
+.about ul li a i{
+    width: px;
+    margin-top: 15px;
+    color: orangered;
+}
+.about .tittle h1{
+    background-color: black;
+    width: 300px;
+    margin-left: 530px;
+    color: orangered;
+}
+.tittle1{
+    font-size: 20px;
+    background-color: black;
+    color: orangered;
+    text-align: center;
+    width: 1370px;
+    display: none;
+}
+.nextbtn button{
+    font-size: 30px;
+    border-radius: 5px;
+}
+.nextbtn button a{
+    text-decoration: none;
+    color: black;
+}
+.nextbtn button{
+    background: #fff;
+    color: black;
+    height: 50px;
+    width: 100px;
+    border: 0.5px solid black;
+}
+.nextbtn button a{
+    font-size: 15px;
+}
+h2{
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+    background: red;
+}
