@@ -384,6 +384,7 @@ nav ul .dropdown ul{
 #box-1 p{
      font-size: 20px;
      text-align: center;
+    justify-content: start;
 }
 #box-2{
     width: 660px;
@@ -396,6 +397,7 @@ nav ul .dropdown ul{
 #box-2 p{
     font-size: 20px;
     text-align: center;
+    justify-content: start;
 }
 #box-3{
     height: 200px;
