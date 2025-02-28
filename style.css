@@ -103,9 +103,9 @@ nav ul li i{
         right: 0;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: ;
         justify-content: start;
-        align-items: start;
+        align-items: center;
         background: hsl(0, 0%, 95%);
         background-size: ;
         width: 600px;
@@ -215,10 +215,10 @@ nav ul li i{
         right: 0;
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        flex-wrap: ;
         text-align: start;
-        justify-content: flex-start;
-        align-items: start;
+        justify-content: start;
+        align-items: center;
         background: hsl(0, 0%, 95%);
         background-size: ;
         width: 600px;
