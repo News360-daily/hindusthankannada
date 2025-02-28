@@ -389,6 +389,14 @@ nav ul .dropdown ul{
     width: 660px;
     flex-grow: 1;
 }
+#box-2 img{
+    width:500px;
+    height:300px;
+}
+#box-2 p{
+    font-size: 20px;
+    text-align: center;
+}
 #box-3{
     height: 200px;
     flex-grow: 1;
