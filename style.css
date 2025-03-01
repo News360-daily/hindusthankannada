@@ -113,6 +113,7 @@ nav ul li i{
         height: 100%;
         gap: 0;
         overflow-x: auto;
+        margin-left:100px
     }
     nav ul li{
         background-color: #fff;
@@ -227,6 +228,7 @@ nav ul li i{
         height: 100%;
         gap: 0;
         overflow-x: auto;
+        margin-left:100px
     }
     nav ul li a{
         margin-left: 100px;
