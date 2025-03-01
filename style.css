@@ -119,6 +119,7 @@ nav ul li i{
         color: black;
         border: 0.5px solid #ddd;
         width: 600px;
+        margin-left:100px;
     }
     nav ul li a i{
         width: 50px;
