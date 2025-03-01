@@ -104,7 +104,7 @@ nav ul li i{
         display: flex;
         flex-direction: column;
         flex-wrap: ;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         text-align:center;
         background: hsl(0, 0%, 95%);
@@ -120,7 +120,7 @@ nav ul li i{
         color: black;
         border: 0.5px solid #ddd;
         width: 600px;
-        margin-left:100px;
+        margin-left:200px;
     }
     nav ul li a i{
         width: 50px;
@@ -220,7 +220,7 @@ nav ul li i{
         flex-direction: column;
         flex-wrap: ;
         text-align: center;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
         background: hsl(0, 0%, 95%);
         background-size: ;
@@ -232,6 +232,9 @@ nav ul li i{
     }
     nav ul li a{
         margin-left: 100px;
+    }
+    nav ul li{
+        margin-left:200px;
     }
     .srch button{
         margin-right: 910px;
