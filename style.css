@@ -378,95 +378,8 @@ nav ul .dropdown ul{
     gap: 20px;
     align-items: center;
     align-content: center;
+}
 
-}
-#box-1{
-    width: 500px;
-    flex-grow: 1;
-}
-#box-1 img{
-    width: 500px;
-    height: 300px;
-}
-#box-1 p{
-     font-size: 20px;
-     text-align: center;
-    justify-content: start;
-}
-#box-2{
-    width: 660px;
-    flex-grow: 1;
-}
-#box-2 img{
-    width:500px;
-    height:300px;
-}
-#box-2 p{
-    font-size: 20px;
-    text-align: center;
-    justify-content: start;
-}
-#box-3{
-    height: 200px;
-    flex-grow: 1;
-}
-#box-4{
-    height: 200px;
-    flex-grow: 1;
-}
-#box-5{
-    height: 200px;
-    flex-grow: 1;
-}
-#box-6{
-    flex-grow: 1;
-    width: 660px;
-}
-#box-7{
-    flex-grow: 1;
-    width: 660px;
-}
-#box-8{
-    height: 200px;
-    flex-grow: 1;
-}
-#box-9{
-    height: 200px;
-    flex-grow: 1;
-}
-#box-10{
-    height: 200px;
-    flex-grow: 1;
-}
-#box-11{
-    width: 1200px;
-    height: auto;
-    flex-grow: 1;
-    flex-shrink: 1;
-}
-#box-11 img{
-    width: 500px;
-    height: 400px;
-    float: left;
-}
-#box-11 h1{
-    text-align: center;
-}
-#box-11 h3{
-    text-align: center;
-}
-#box-12{
-    height: 200px;
-    flex-grow: 1;
-}
-#box-13{
-    height:200px;
-    flex-grow: 1;
-}
-#box-14{
-    height: 200px;
-    flex-grow: 1;
-}
 
 .flex-box{
     width: 400px;
@@ -476,8 +389,6 @@ nav ul .dropdown ul{
     border-radius: 20px;
     flex-grow: 1;
 }
-
-
 
 .headline{
     margin-left: px;
