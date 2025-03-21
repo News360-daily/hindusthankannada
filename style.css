@@ -210,7 +210,1090 @@ nav ul li i{
 
     
 }
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 650px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 950px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+
+@media only screen and (max-width: 992px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        justify-content: center;
+        align-items: center;
+        text-align:center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li{
+        background-color: #fff;
+        color: black;
+        border: 0.5px solid #ddd;
+        width: 600px;
+        margin-left:200px;
+    }
+    nav ul li a i{
+        width: 50px;
+    }
+    nav ul input{
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    nav ul li{
+        padding: 20px;
+        margin-right: 100px;
+    }
+    .menu-icon{
+        display: block;
+        position: fixed;
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+    .logo{
+        position: fixed;
+        margin-right: 700px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-left: -26px;
+        height: 45px;
+
+    }
+    .btnn{
+        position: fixed;
+        margin-left: 370px;
+        margin-top: 25px;
+    }
+    nav{
+        height: 90px;
+        position: fixed;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        width: 400px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        border-top: none;
+        gap: 20px;
+        background: none;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .menu li a i{
+        top: 50px;
+        
+    }
+    .menu::-webkit-scrollbar{
+        width: 0;
+    }
+    input{
+        display: none;
+    }
+    .srch button{
+        margin-right: 830px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about{
+        width: 600px;
+    }
+    .about ul li{
+        padding-right: ;
+        margin-left: -770px;
+    }
+    .about ul li a{
+        margin-left: 750px;
+    }
+    .about .tittle {
+        margin-left: -390px;
+    }
+    
+
+    
+}
+
+
+
+@media only screen and (max-width: 500px) {
     nav ul{
         position:fixed;
         top: 50px;
@@ -368,6 +1451,168 @@ nav ul .dropdown ul{
         display: none;
     }
 }
+
+@media only screen and (max-width: 540px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li a{
+        margin-left: 100px;
+    }
+    nav ul li{
+        margin-left:200px;
+    }
+    .srch button{
+        margin-right: 910px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about .tittle {
+        margin-left: -430px;
+    }
+    .btnn{
+        margin-left: 280px;
+    }
+    .menu-icon{
+        margin-left: 410px;
+    }
+    input{
+        display: none;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        max-width: 320px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        background: none;
+        gap: 20px;
+        flex-flow: initial;
+        width: 100%;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .about{
+        width: 500px;
+    }
+    .about ul li{
+        margin-left: -870px;
+    }
+    .about ul li a{
+        margin-left: 850px;
+    }
+    .logo {
+        font-size: 17px;
+        height: 45px;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 570px) {
+    nav ul{
+        position:fixed;
+        top: 50px;
+        left: px;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: ;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        background: hsl(0, 0%, 95%);
+        background-size: ;
+        width: 600px;
+        height: 100%;
+        gap: 0;
+        overflow-x: auto;
+        margin-left:100px
+    }
+    nav ul li a{
+        margin-left: 100px;
+    }
+    nav ul li{
+        margin-left:200px;
+    }
+    .srch button{
+        margin-right: 910px;
+        margin-bottom: 60px;
+        font-size: 20px;
+    }
+    .about .tittle {
+        margin-left: -430px;
+    }
+    .btnn{
+        margin-left: 280px;
+    }
+    .menu-icon{
+        margin-left: 410px;
+    }
+    input{
+        display: none;
+    }
+    .menu{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        margin-left: -10px;
+        max-width: 320px;
+        margin-bottom: 30px;
+        overflow-x: auto;
+        border: none;
+        background: none;
+        gap: 20px;
+        flex-flow: initial;
+        width: 100%;
+        border-bottom: none;
+        font-size: 20px;
+    }
+    .menu li{
+        width: 100%;
+    }
+    .about{
+        width: 500px;
+    }
+    .about ul li{
+        margin-left: -870px;
+    }
+    .about ul li a{
+        margin-left: 850px;
+    }
+    .logo {
+        font-size: 17px;
+        height: 45px;
+        margin-top: 10px;
+    }
+}
+
+
 
 .flex-container{
     min-height: 100vh;
