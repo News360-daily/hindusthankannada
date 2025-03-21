@@ -1784,7 +1784,7 @@ nav ul .dropdown ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 20px;
     align-items: center;
     align-content: center;
@@ -1797,7 +1797,6 @@ nav ul .dropdown ul{
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 20px;
-    flex-grow: 1;
 }
 
 .headline{
